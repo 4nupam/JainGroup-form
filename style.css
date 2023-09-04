@@ -1,0 +1,31 @@
+body{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+}
+.container{
+    height: 80vh;
+    background-color: antiquewhite;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label{
+    color:brown;
+    font-size: 1.2rem;
+    font-weight: bold;   
+}
+input{
+    outline:none;
+    border:1px solid 
+    grey;
+    border-radius: 5px;
+}
